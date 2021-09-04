@@ -6,16 +6,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="replace-null",
-    version="2.0.1",
+    version="1.0.0",
     author="Lalu Prasad Mahto",
     author_email="lalumahato020@gmail.com",
     description="Pypi module that help you to perform various ml operation.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # url="https://github.com/pypa/sampleproject",
-    # project_urls={
-    #     "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
-    # },
+    url="https://github.com/PrasadLalu/ml-operations",
+    project_urls={
+        "Bug Tracker": "https://github.com/PrasadLalu/ml-operations/issues",
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
